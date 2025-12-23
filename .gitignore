@@ -1,0 +1,57 @@
+# --- Python Virtual Environment ---
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+
+# --- API Keys & Secrets (CRITICAL) ---
+.env
+.flaskenv
+secrets.json
+.aws/
+credentials
+*-key.json
+
+# --- Large Language Model (LLM) Artifacts ---
+# Ignore local model weights if using LoRA/PEFT
+*.pth
+*.bin
+*.pt
+*.onnx
+*.safetensors
+# Hugging Face cache
+.cache/huggingface/
+
+# --- Vector Database & Storage ---
+# FAISS/Chroma indexes can grow to several GBs
+vectorstore/
+*.index
+*.pkl
+index.faiss
+
+# --- Data & Documents ---
+# Do not upload private legal PDFs or the raw dataset
+data/
+*.pdf
+*.docx
+*.txt
+*.csv
+!data/sample_legal_doc.pdf  # Optional: allow one small sample for demo
+
+# --- App Frameworks (Streamlit/AWS) ---
+.streamlit/config.toml
+.aws-sam/
+dist/
+build/
+
+# --- Logs & Performance ---
+logs/
+*.log
+.ragas/
+wandb/
+
+# --- OS & Editor ---
+.DS_Store
+.vscode/
+.idea/
