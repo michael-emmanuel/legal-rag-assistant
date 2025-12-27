@@ -5,7 +5,7 @@ env/
 __pycache__/
 *.py[cod]
 
-# --- API Keys & Secrets (CRITICAL) ---
+# --- API Keys & Secrets ---
 .env
 .flaskenv
 secrets.json
@@ -37,6 +37,7 @@ data/
 *.docx
 *.txt
 *.csv
+!data/cuad.pdf # allow public cuad
 !data/sample_legal_doc.pdf  # Optional: allow one small sample for demo
 
 # --- App Frameworks (Streamlit/AWS) ---
