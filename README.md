@@ -44,8 +44,8 @@ legal_rag/
 
 ```
 # Clone the repository
-git clone github.com
-cd legal-rag
+git clone https://github.com/michael-emmanuel/legal-rag-assistant
+cd legal-rag-assistant
 
 # Install 2025 stable dependencies
 pip install -r requirements.txt
