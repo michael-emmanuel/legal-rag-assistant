@@ -34,7 +34,7 @@ legal_rag/
 │   └── app.py         # Streamlit UI implementation
 ├── data/              # Storage for CUAD JSON and local index
 ├── notebooks/         # Retrieval evaluation & failure analysis
-├── requirements.txt   # 2025-ready dependencies
+├── requirements.txt   # dependencies
 └── README.md
 ```
 
@@ -47,7 +47,7 @@ legal_rag/
 git clone https://github.com/michael-emmanuel/legal-rag-assistant
 cd legal-rag-assistant
 
-# Install 2025 stable dependencies
+# Install dependencies
 pip install -r requirements.txt
 
 # Configure Environment
